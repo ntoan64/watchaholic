@@ -2,6 +2,8 @@
 
 Web quản lý kho và bán hàng mình làm cho một cửa hàng đồng hồ. Nhân viên bán hàng ngay trên máy tính hoặc điện thoại, còn chủ cửa hàng mở ra là thấy doanh thu và tiền lời theo ngày, tháng, năm.
 
+Chủ cửa hàng và nhân viên đã quen dùng KiotViet, nên họ muốn giao diện mới trông tương tự để không phải tập lại từ đầu. Mình giữ cách bố trí quen thuộc đó, rồi chỉnh sửa và bổ sung những chức năng cần thiết dành riêng cho việc bán đồng hồ.
+
 > Repo này mình để công khai để giới thiệu dự án. Code nằm ở repo riêng vì hệ thống đang dùng cho cửa hàng thật. Ai cần xem code thì nhắn mình, mình mở quyền hoặc demo trực tiếp.
 >
 > Ảnh bên dưới chụp từ bản chạy thử với dữ liệu giả, không phải dữ liệu của cửa hàng.
@@ -74,9 +76,9 @@ Chủ cửa hàng muốn nắm được đơn mới ngay cả khi không có m�
 
 ## Công cụ mình dùng
 
-Mình thường phác thảo ý tưởng giao diện bằng Google Stitch trước để hình dung bố cục và trải nghiệm tổng thể, sau đó mới bắt đầu code.
+Giao diện mình không phác thảo bằng công cụ thiết kế mà dựa theo KiotViet, phần mềm mà cửa hàng đã quen dùng, kết hợp với cảm nhận của mình khi thử bán hàng trên đó để chỉnh lại cho gọn và hợp với việc bán đồng hồ.
 
-Trong quá trình phát triển, mình sử dụng Claude và Codex để hỗ trợ viết code nhanh hơn, review logic và tìm lỗi. AI giúp mình rút ngắn thời gian xử lý, nhưng việc quyết định nên làm tính năng nào, kiểm tra lại trên hệ thống thực tế và chỉnh sửa dựa trên phản hồi của chủ cửa hàng vẫn là phần mình trực tiếp thực hiện.
+Lúc làm dự án này, mình dùng ChatGPT (bản web) để hỗ trợ viết code, sau đó dùng Claude để review và sửa lại lỗi. AI giúp mình rút ngắn thời gian xử lý, nhưng việc quyết định nên làm tính năng nào, kiểm tra lại trên hệ thống thực tế và chỉnh sửa dựa trên phản hồi của chủ cửa hàng vẫn là phần mình trực tiếp thực hiện.
 
 Với mình, AI là công cụ hỗ trợ để làm nhanh và hiệu quả hơn, còn chất lượng sản phẩm cuối cùng vẫn phụ thuộc vào cách mình kiểm tra, đánh giá và cải thiện nó qua quá trình sử dụng thực tế.
 
